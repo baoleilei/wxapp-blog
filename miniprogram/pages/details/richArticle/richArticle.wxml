@@ -7,9 +7,9 @@
         <view class='text-center' >该文章已关闭显示</view>
 </view>
 
-<ad unit-id="{{BannerAd}}"></ad>
+<!-- <ad unit-id="{{BannerAd}}"></ad> -->
 <!--随机推荐-->
-<view class="cu-list menu">
+<!-- <view class="cu-list menu">
  <view class="cu-item" style='padding-left:10px'>
       <view class="content" >
          <text class="cuIcon-titles text-blue text-xl"></text>
@@ -20,13 +20,13 @@
         <text class="text-gray text-sm"> 换一批</text>
       </view>
 </view>
-</view>
+</view> -->
 <!-- <view wx:for="{{randList}}" wx:key="_id" wx:for-index="index" class='padding-left padding-right bg-white' >
      <view class='cut_text text-medium padding-bottom' bindtap='goRand' data-details='{{item}}'>{{index+1}}.{{item.title}}</view>
 </view> -->
 
 <!--评论交流-->
- <view class="cu-list menu">
+ <!-- <view class="cu-list menu">
  <view class="cu-item" >
       <view class="content" >
          <text class="cuIcon-titles text-blue text-xl"></text>
@@ -65,9 +65,9 @@
 </block>
 <view wx:if="{{viewList==''}}" class='text-center padding bg-white'>
 暂无留言哟，赶快撰写吧~~
-</view>
+</view> -->
 
-<view class='margin'>
+<!-- <view class='margin'>
     <view class="cu-form-group" style='border-radius:8px 8px 0 0'>
 		      <textarea  show-confirm-bar="{{false}}" maxlength="100" wx:if="{{inputfocus}}" focus="{{inputfocus}}"  bindinput="commentInput"  bindconfirm="checkComment" value='{{commentInput}}' ></textarea>
          <view class='textareaView text-grey' wx:if="{{!inputfocus}}" bindtap='toWrite' >{{commentInput?commentInput:'请开始您的评论，最多100字；评论需管理员审核后方可见'}}
@@ -79,7 +79,7 @@
                  <text > 发送</text>
           </view>
     </view>
-</view>
+</view> -->
 
 
   <!--底部tabbar-->
@@ -93,12 +93,12 @@
       </view>
      赞赏
     </view> -->
-    <view class="action" bindtap='check_draw'>
+    <!-- <view class="action" bindtap='check_draw'>
       <view class="cuIcon-cu-image">
         <image src="/images/tabbar/poster.png"></image>
       </view>
       <view class="text-black">海报</view>
-    </view>
+    </view> -->
     <view class="action text-black add-action">
       <button class="cu-btn cuIcon-forwardfill bg-yellow shadow" open-type='share'></button>
       转发

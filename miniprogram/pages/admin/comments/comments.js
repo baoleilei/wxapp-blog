@@ -115,9 +115,9 @@ Page({
         success(e) {
           wx.hideLoading();
           if (e.data == "") {
-            wx.showToast({
-              title: '已加载到底',
-            });
+            // wx.showToast({
+            //   title: '已加载到底',
+            // });
             return false;
           }
           that.setData({

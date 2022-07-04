@@ -302,9 +302,9 @@ Page({
       })
   },
 
-  onReachBottom() {
-    this.bottom();
-  },
+//   onReachBottom() {
+//     this.bottom();
+//   },
   //触底加载
   bottom() {
     var that = this;
@@ -323,9 +323,9 @@ Page({
         success(e) {
           wx.hideLoading();
           if (e.data == "") {
-            wx.showToast({
-              title: '已加载到底',
-            });
+            // wx.showToast({
+            //   title: '已加载到底',
+            // });
             return false;
           }
           that.setData({

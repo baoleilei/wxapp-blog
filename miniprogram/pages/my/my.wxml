@@ -39,12 +39,12 @@
       </button>
     </view> -->
 
- <view class="cu-item arrow" bindtap='go' data-to='/pages/users/message/message'>
+ <!-- <view class="cu-item arrow" bindtap='go' data-to='/pages/users/message/message'>
       <view class="content">
       <text class="cuIcon-form text-gray"></text>
         <text class="text-grey">留言展板</text>
       </view>
-    </view>
+    </view> -->
 
 
     <view class="cu-item arrow">

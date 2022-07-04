@@ -74,3 +74,18 @@ config.js中，设置对应数据
 
 #### 七、创建了一个小程序开发交流圈，开发中遇到各种问题或者想学习开发小程序，可以加入我们：
  ![交流圈](https://graph.baidu.com/resource/112c4781c34b4a4839ffd01562744990.jpg "交流圈")
+
+
+
+    // "pages/admin/people/people",
+    // "pages/admin/home/home",
+    // "pages/admin/gzh/gzh",
+    // "pages/admin/comments/comments",
+    // "pages/admin/message/message",
+    // "pages/admin/contents/contents",
+    // "pages/admin/notice/notice",
+    // "pages/admin/add/wxArticle/wxArticle",
+    // "pages/admin/add/richArticle/richArticle",
+    // "pages/admin/add/video/video",
+    // "pages/admin/add/photo/photo",
+    // "pages/admin/kind/kind"

@@ -24,7 +24,7 @@
 </view>
 
 <!--评论交流-->
- <view class="cu-list menu">
+ <!-- <view class="cu-list menu">
  <view class="cu-item" >
       <view class="content" >
          <text class="cuIcon-titles text-blue text-xl"></text>
@@ -35,9 +35,9 @@
         <text class="text-gray text-sm"> 我要写</text>
       </view>
 </view>
-</view> 
+</view>  -->
 
-<block wx:for="{{comments}}" wx:key="*this">
+<!-- <block wx:for="{{comments}}" wx:key="*this">
 <block wx:for="{{item}}" wx:key="_id" wx:if="{{item!==''}}">
 <view class="cu-list menu-avatar comment solids-top" style='margin-top:0'>
       <view class="cu-item">
@@ -58,14 +58,14 @@
       </view>
       </view>
     </view>
-</view>
-</block>
-</block>
-<view wx:if="{{viewList==''}}" class='text-center padding bg-white'>
+</view> -->
+<!-- </block>
+</block> -->
+<!-- <view wx:if="{{viewList==''}}" class='text-center padding bg-white'>
 暂无留言哟，赶快撰写吧~~
-</view>
+</view> -->
 
-<view class='margin'>
+<!-- <view class='margin'>
     <view class="cu-form-group" style='border-radius:8px 8px 0 0'>
 		      <textarea  maxlength="100" wx:if="{{inputfocus}}" focus="{{inputfocus}}"  bindinput="commentInput"  bindconfirm="checkComment" value='{{commentInput}}'  show-confirm-bar="{{false}}"></textarea>
          <view class='textareaView text-grey' wx:if="{{!inputfocus}}" bindtap='toWrite' >{{commentInput?commentInput:'请开始您的评论，最多100字；评论需管理员审核后方可见'}}
@@ -77,7 +77,7 @@
                  <text > 发送</text>
           </view>
     </view>
-</view>
+</view> -->
 
 
   <!--底部tabbar-->
