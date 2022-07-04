@@ -35,3 +35,12 @@
   mix-blend-mode: screen;  
   height: 100rpx;   
 }
+.avatar-wrapper {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 160rpx;   
+}
+.avatar-wrapper::after {
+    border: none;
+}

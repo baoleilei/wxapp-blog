@@ -73,7 +73,7 @@ Page({
         var rand_num = res.total - 2;//这里2代表前端显示3条，所以总条数减去2再取随机数
         var randNum = Math.floor(Math.random() * rand_num);
         if (randNum == that.data.randNum) {
-          that.randLike();//随机数相同，重新进行随机
+        //   that.randLike();//随机数相同，重新进行随机
         } else {
           if (randNum == 0) {
             db.collection('published').where({

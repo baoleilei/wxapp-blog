@@ -9,7 +9,7 @@ App({
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
     } else {
       wx.cloud.init({
-        env: 'jc-808126',//云环境id
+        env: 'cloud1-8gcuusu7c7cfc15c',//云环境id
         traceUser: true,
       })
     }
